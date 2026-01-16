@@ -337,25 +337,18 @@ address a:hover {
     text-align: center;
   }
 }
-@media (max-width: 768px) {
+@media (min-width: 768px) {
   .menu-btn {
-    display: block;
+    display: none;
   }
 
   .nav-links {
-    position: absolute;
-    top: 100%;
-    left: 0;
-    width: 100%;
-    flex-direction: column;
-    background: var(--clr-bg, #0f172a);
-    padding: 1rem 0;
-    gap: 1.2rem;
-    display: none;
-    text-align: center;
-  }
-
-  .nav-links.active {
+    position: static;
     display: flex;
+    flex-direction: row;
+    gap: 2.5rem;
+    background: none;
+    width: auto;
+    padding: 0;
   }
 }
