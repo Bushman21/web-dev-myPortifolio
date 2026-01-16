@@ -317,9 +317,10 @@ address a:hover {
   text-decoration: underline;
 }
 
-/* ===============================
+* ===============================
    RESPONSIVE
 ================================ */
+
 @media (max-width: 900px) {
   .hero {
     grid-template-columns: 1fr;
@@ -329,14 +330,13 @@ address a:hover {
   .hero-image img {
     margin: 0 auto;
   }
-}
-
 
   .footer-container {
     flex-direction: column;
     text-align: center;
   }
 }
+
 @media (min-width: 768px) {
   .menu-btn {
     display: none;
