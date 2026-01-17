@@ -138,6 +138,8 @@ main {
   grid-template-columns: 1fr 1.2fr;
   gap: 3rem;
   align-items: center;
+}
+.hero {
   max-width: var(--max-width);
   margin: 0 auto;
 }
